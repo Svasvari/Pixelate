@@ -1,0 +1,77 @@
+* { 
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+@font-face {
+    font-family: eightBit;
+    src: url("8bit.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 47, 47);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: eightBit;
+    color: white;
+    flex: 0 1 150px;
+    background-color: rgb(48, 47, 47);
+}
+
+selection {
+    display: block;
+    text-align: center;
+    background-color: rgb(48, 47, 47);
+    align-items: center;
+    flex: 0 1 50px;
+}
+
+#add {
+    margin: 0px;
+}
+
+#color {
+}
+
+/* grid {
+    display: flex;
+    background-color: red;
+    height: 1100px;
+} */
+
+table {
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-spacing: 1px;
+}
+
+tr {
+    margin: auto;
+}
+
+td {
+    background-color: rgb(223, 221, 221);
+    justify-content: center;
+    min-height: 50px;
+    min-width: 50px;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.highlight {
+    border: 2px solid hotpink;
+    box-shadow: inset 0px 0px 10px 2px hotpink;
+}
